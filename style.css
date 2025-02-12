@@ -198,3 +198,17 @@ nav{
     bottom: 0;
 }
 
+@media screen and (max-width: 1200px){
+    .nav_header ul{
+        width: 20%;
+        gap: 1rem;
+    }
+    
+    .nav_header a, .nav_header li{
+        font-size: 1.3rem;
+    }
+
+    .profile_desc{
+        font-size: 1.2rem;
+    }
+}
